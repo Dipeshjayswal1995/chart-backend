@@ -1,0 +1,139 @@
+{
+  "selectedChartCate": {
+    "name": "Two Level Charts",
+    "id": 2,
+    "chartOption": [
+      {
+        "type": "line",
+        "name": "Line Chart",
+        "isVisableMapOption": false,
+        "xAxis": true,
+        "yAxis": true,
+        "isVisiableSeriesField": false,
+        "dataLabel": true,
+        "enableMouseTracking": true,
+        "zooming": true,
+        "tooltip": true,
+        "showLegend": false
+      },
+      {
+        "type": "spline",
+        "name": "Spline Chart",
+        "isVisableMapOption": false,
+        "xAxis": true,
+        "yAxis": true,
+        "isVisiableSeriesField": false,
+        "dataLabel": true,
+        "enableMouseTracking": true,
+        "zooming": true,
+        "tooltip": true,
+        "showLegend": false
+      },
+      {
+        "type": "columnrange",
+        "name": "Column Range Chart",
+        "isVisableMapOption": false,
+        "xAxis": true,
+        "yAxis": true,
+        "isVisiableSeriesField": false,
+        "dataLabel": true,
+        "enableMouseTracking": true,
+        "zooming": true,
+        "tooltip": true,
+        "showLegend": false
+      },
+      {
+        "type": "arearange",
+        "name": "Area Range Chart",
+        "isVisableMapOption": false,
+        "xAxis": true,
+        "yAxis": true,
+        "isVisiableSeriesField": false,
+        "dataLabel": true,
+        "enableMouseTracking": true,
+        "zooming": true,
+        "tooltip": true,
+        "showLegend": false
+      },
+      {
+        "type": "scatter",
+        "name": "Scatter Chart",
+        "isVisableMapOption": false,
+        "xAxis": true,
+        "yAxis": true,
+        "isVisiableSeriesField": false,
+        "dataLabel": true,
+        "enableMouseTracking": true,
+        "zooming": true,
+        "tooltip": true,
+        "showLegend": false
+      }
+    ]
+  },
+  "selectedChartType": {
+    "type": "spline",
+    "name": "Spline Chart",
+    "isVisableMapOption": false,
+    "xAxis": true,
+    "yAxis": true,
+    "isVisiableSeriesField": false,
+    "dataLabel": true,
+    "enableMouseTracking": true,
+    "zooming": true,
+    "tooltip": true,
+    "showLegend": false
+  },
+  "rawData": [
+    {
+      "altitude": 0,
+      "temperature": 15
+    },
+    {
+      "altitude": 10,
+      "temperature": -50
+    },
+    {
+      "altitude": 20,
+      "temperature": -56.5
+    },
+    {
+      "altitude": 30,
+      "temperature": -46.5
+    },
+    {
+      "altitude": 40,
+      "temperature": -22.1
+    },
+    {
+      "altitude": 50,
+      "temperature": -2.5
+    },
+    {
+      "altitude": 60,
+      "temperature": -27.7
+    },
+    {
+      "altitude": 70,
+      "temperature": -55.7
+    },
+    {
+      "altitude": 80,
+      "temperature": -76.5
+    }
+  ],
+  "title": "",
+  "subTitle": "",
+  "selectedXAxis": "altitude",
+  "selectedYAxis": "temperature",
+  "zooming": "",
+  "showLengend": false,
+  "dataLabel": false,
+  "enableMouseTracking": false,
+  "selectedThirdArgument": "",
+  "pieInnerSize": "",
+  "pieStartAngal": 0,
+  "pieENDAngal": 0,
+  "stacking": "",
+  "selectedSeriesFields": [],
+  "yAxes": []
+}

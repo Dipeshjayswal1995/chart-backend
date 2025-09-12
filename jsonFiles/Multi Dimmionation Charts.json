@@ -1,0 +1,135 @@
+{
+  "sourceType": 1,
+  "sourceFile": "",
+  "selectedChartCate": {
+    "name": "Multi Dimminational Charts",
+    "id": 4,
+    "isVisableMapOption": false,
+    "isVisableMatchFeild": false,
+    "xAxis": true,
+    "yAxis": true,
+    "isVisiableSeriesField": true,
+    "dataLabel": true,
+    "enableMouseTracking": true,
+    "zooming": true,
+    "tooltip": false,
+    "showLegend": true
+  },
+  "selectedChartType": null,
+  "selectedMatchValue": "",
+  "selectedMapOption": null,
+  "rawData": [
+    {
+      "month": "Jan",
+      "rainfall": 49.9,
+      "seaLevelPressure": 1016,
+      "temperature": 7
+    },
+    {
+      "month": "Feb",
+      "rainfall": 71.5,
+      "seaLevelPressure": 1016,
+      "temperature": 6.9
+    },
+    {
+      "month": "Mar",
+      "rainfall": 106.4,
+      "seaLevelPressure": 1015.9,
+      "temperature": 9.5
+    },
+    {
+      "month": "Apr",
+      "rainfall": 129.2,
+      "seaLevelPressure": 1015.5,
+      "temperature": 14.5
+    },
+    {
+      "month": "May",
+      "rainfall": 144,
+      "seaLevelPressure": 1012.3,
+      "temperature": 18.2
+    },
+    {
+      "month": "Jun",
+      "rainfall": 176,
+      "seaLevelPressure": 1009.5,
+      "temperature": 21.5
+    },
+    {
+      "month": "Jul",
+      "rainfall": 135.6,
+      "seaLevelPressure": 1009.6,
+      "temperature": 25.2
+    },
+    {
+      "month": "Aug",
+      "rainfall": 148.5,
+      "seaLevelPressure": 1010.2,
+      "temperature": 26.5
+    },
+    {
+      "month": "Sep",
+      "rainfall": 216.4,
+      "seaLevelPressure": 1013.1,
+      "temperature": 23.3
+    },
+    {
+      "month": "Oct",
+      "rainfall": 194.1,
+      "seaLevelPressure": 1016.9,
+      "temperature": 18.3
+    },
+    {
+      "month": "Nov",
+      "rainfall": 95.6,
+      "seaLevelPressure": 1018.2,
+      "temperature": 13.9
+    },
+    {
+      "month": "Dec",
+      "rainfall": 54.4,
+      "seaLevelPressure": 1016.7,
+      "temperature": 9.6
+    }
+  ],
+  "title": "",
+  "subTitle": "",
+  "selectedXAxis": "month",
+  "selectedYAxis": "",
+  "zooming": "xy",
+  "showLengend": true,
+  "dataLabel": false,
+  "enableMouseTracking": true,
+  "selectedThirdArgument": "",
+  "pieInnerSize": 0,
+  "pieStartAngal": 0,
+  "pieENDAngal": 0,
+  "stacking": "",
+  "selectedSeriesFields": [],
+  "yAxes": [
+    {
+      "title": "Rainfall",
+      "field": "rainfall",
+      "chartType": "column",
+      "unit": "mm",
+      "opposite": true,
+      "color": "#5856d2"
+    },
+    {
+      "title": "Tempture",
+      "field": "temperature",
+      "chartType": "spline",
+      "unit": "C",
+      "opposite": true,
+      "color": "#29d13d"
+    },
+    {
+      "title": "Sea Level Pressure",
+      "field": "seaLevelPressure",
+      "chartType": "spline",
+      "unit": "mn",
+      "opposite": false,
+      "color": "#49b4b6"
+    }
+  ]
+}

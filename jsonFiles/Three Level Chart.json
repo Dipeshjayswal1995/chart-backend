@@ -1,0 +1,179 @@
+{
+  "sourceType": "2",
+  "sourceFile": "",
+  "selectedChartCate": {
+    "name": "Three Level Charts",
+    "id": 3,
+    "chartOption": [
+      {
+        "type": "variwide",
+        "name": "Variwide Chart",
+        "thirdArgument": true,
+        "fouthArgument": false,
+        "xAxis": true,
+        "yAxis": true,
+        "isVisiableSeriesField": false,
+        "dataLabel": true,
+        "enableMouseTracking": true,
+        "zooming": true,
+        "tooltip": false,
+        "showLegend": false
+      },
+      {
+        "type": "bubble",
+        "name": "Bubble Chart",
+        "thirdArgument": true,
+        "fouthArgument": true,
+        "xAxis": true,
+        "yAxis": true,
+        "isVisiableSeriesField": false,
+        "dataLabel": true,
+        "enableMouseTracking": true,
+        "zooming": true,
+        "tooltip": false,
+        "showLegend": false
+      }
+    ]
+  },
+  "selectedChartType": {
+    "type": "variwide",
+    "name": "Variwide Chart",
+    "thirdArgument": true,
+    "fouthArgument": false,
+    "xAxis": true,
+    "yAxis": true,
+    "isVisiableSeriesField": false,
+    "dataLabel": true,
+    "enableMouseTracking": true,
+    "zooming": true,
+    "tooltip": false,
+    "showLegend": false
+  },
+  "rawData": [
+    {
+      "Country": "Norway",
+      "Value1": 51.9,
+      "Value2": 448716
+    },
+    {
+      "Country": "Denmark",
+      "Value1": 48.1,
+      "Value2": 376430
+    },
+    {
+      "Country": "Belgium",
+      "Value1": 47.1,
+      "Value2": 584699
+    },
+    {
+      "Country": "Netherlands",
+      "Value1": 43.3,
+      "Value2": 1034086
+    },
+    {
+      "Country": "France",
+      "Value1": 42.2,
+      "Value2": 2822455
+    },
+    {
+      "Country": "Germany",
+      "Value1": 41.3,
+      "Value2": 2122210
+    },
+    {
+      "Country": "Austria",
+      "Value1": 40.9,
+      "Value2": 478190
+    },
+    {
+      "Country": "Ireland",
+      "Value1": 40.2,
+      "Value2": 504620
+    },
+    {
+      "Country": "Sweden",
+      "Value1": 38.9,
+      "Value2": 540651
+    },
+    {
+      "Country": "Finland",
+      "Value1": 37.1,
+      "Value2": 274880
+    },
+    {
+      "Country": "Italy",
+      "Value1": 29.8,
+      "Value2": 2085375
+    },
+    {
+      "Country": "Spain",
+      "Value1": 24.6,
+      "Value2": 1461889
+    },
+    {
+      "Country": "Czech Republic",
+      "Value1": 18,
+      "Value2": 317387
+    },
+    {
+      "Country": "Portugal",
+      "Value1": 17,
+      "Value2": 265525
+    },
+    {
+      "Country": "Greece",
+      "Value1": 15.7,
+      "Value2": 220303
+    },
+    {
+      "Country": "Poland",
+      "Value1": 14.5,
+      "Value2": 750801
+    },
+    {
+      "Country": "Romania",
+      "Value1": 11,
+      "Value2": 324578
+    }
+  ],
+  "title": "",
+  "subTitle": "",
+  "selectedXAxis": "Country",
+  "selectedYAxis": "Value1",
+  "zooming": "xy",
+  "showLengend": false,
+  "dataLabel": true,
+  "enableMouseTracking": true,
+  "selectedThirdArgument": "Value2",
+  "pieInnerSize": 0,
+  "pieStartAngal": 0,
+  "pieENDAngal": 0,
+  "stacking": "",
+  "selectedSeriesFields": [],
+  "yAxes": [
+    {
+      "title": "Rainfall",
+      "field": "rainfall",
+      "chartType": "column",
+      "unit": "mm",
+      "opposite": true,
+      "color": "#5856d2"
+    },
+    {
+      "title": "Tempture",
+      "field": "temperature",
+      "chartType": "spline",
+      "unit": "C",
+      "opposite": true,
+      "color": "#29d13d"
+    },
+    {
+      "title": "Sea Level Pressure",
+      "field": "seaLevelPressure",
+      "chartType": "spline",
+      "unit": "mn",
+      "opposite": false,
+      "color": "#49b4b6"
+    }
+  ]
+}

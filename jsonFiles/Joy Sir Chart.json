@@ -1,0 +1,253 @@
+{
+  "sourceType": "1",
+  "sourceFile": "assets/test5.json",
+  "selectedChartCate": {
+    "name": "Singal Level Charts",
+    "id": 1,
+    "chartOption": [
+      {
+        "type": "line",
+        "name": "Line Chart",
+        "isVisableMapOption": false,
+        "xAxis": true,
+        "yAxis": true,
+        "stacking": false,
+        "isVisiableSeriesField": false,
+        "dataLabel": true,
+        "enableMouseTracking": true,
+        "zooming": true,
+        "tooltip": true,
+        "showLegend": true
+      },
+      {
+        "type": "spline",
+        "name": "Spline Chart",
+        "isVisableMapOption": false,
+        "xAxis": true,
+        "yAxis": true,
+        "stacking": false,
+        "isVisiableSeriesField": false,
+        "dataLabel": true,
+        "enableMouseTracking": true,
+        "zooming": true,
+        "tooltip": true,
+        "showLegend": true
+      },
+      {
+        "type": "lollipop",
+        "name": "Lollipop Chart",
+        "isVisableMapOption": false,
+        "xAxis": true,
+        "yAxis": true,
+        "stacking": false,
+        "isVisiableSeriesField": false,
+        "dataLabel": true,
+        "enableMouseTracking": true,
+        "zooming": true,
+        "tooltip": true,
+        "showLegend": true
+      },
+      {
+        "type": "columnpyramid",
+        "name": "Column Pyramid Chart",
+        "isVisableMapOption": false,
+        "xAxis": true,
+        "yAxis": true,
+        "stacking": false,
+        "isVisiableSeriesField": false,
+        "dataLabel": true,
+        "enableMouseTracking": true,
+        "zooming": true,
+        "tooltip": true,
+        "showLegend": true
+      },
+      {
+        "type": "pyramid",
+        "name": "Pyramid Chart",
+        "isVisableMapOption": false,
+        "xAxis": true,
+        "yAxis": true,
+        "stacking": false,
+        "isVisiableSeriesField": false,
+        "dataLabel": true,
+        "enableMouseTracking": true,
+        "zooming": true,
+        "tooltip": true,
+        "showLegend": true
+      },
+      {
+        "type": "bar",
+        "name": "Bar Chart",
+        "isVisableMapOption": false,
+        "xAxis": true,
+        "yAxis": true,
+        "stacking": false,
+        "isVisiableSeriesField": false,
+        "dataLabel": true,
+        "enableMouseTracking": true,
+        "zooming": true,
+        "tooltip": true,
+        "showLegend": true
+      },
+      {
+        "type": "column",
+        "name": "Column Chart",
+        "isVisableMapOption": false,
+        "xAxis": true,
+        "yAxis": true,
+        "stacking": false,
+        "isVisiableSeriesField": false,
+        "dataLabel": true,
+        "enableMouseTracking": true,
+        "zooming": true,
+        "tooltip": true,
+        "showLegend": true
+      },
+      {
+        "type": "area",
+        "name": "Area Chart",
+        "isVisableMapOption": false,
+        "xAxis": true,
+        "yAxis": true,
+        "stacking": false,
+        "isVisiableSeriesField": false,
+        "dataLabel": true,
+        "enableMouseTracking": true,
+        "zooming": true,
+        "tooltip": true,
+        "showLegend": true
+      },
+      {
+        "type": "pie",
+        "name": "Pie Chart or Donut Chart",
+        "isVisableMapOption": false,
+        "xAxis": true,
+        "yAxis": true,
+        "isVisiableSeriesField": false,
+        "dataLabel": true,
+        "enableMouseTracking": true,
+        "zooming": false,
+        "tooltip": true,
+        "showLegend": true
+      },
+      {
+        "type": "bubble",
+        "name": "Bubble Chart",
+        "isVisableMapOption": false,
+        "xAxis": true,
+        "yAxis": true,
+        "isVisiableSeriesField": false,
+        "dataLabel": true,
+        "enableMouseTracking": true,
+        "zooming": true,
+        "tooltip": true,
+        "showLegend": true
+      }
+    ]
+  },
+  "selectedChartType": {
+    "type": "column",
+    "name": "Column Chart",
+    "isVisableMapOption": false,
+    "xAxis": true,
+    "yAxis": true,
+    "stacking": false,
+    "isVisiableSeriesField": false,
+    "dataLabel": true,
+    "enableMouseTracking": true,
+    "zooming": true,
+    "tooltip": true,
+    "showLegend": true
+  },
+  "selectedMatchValue": "",
+  "selectedMapOption": null,
+  "rawData": [
+    {
+      "month": "Jan",
+      "rainfall": 49.9,
+      "seaLevelPressure": 1016,
+      "temperature": 7
+    },
+    {
+      "month": "Feb",
+      "rainfall": 71.5,
+      "seaLevelPressure": 1016,
+      "temperature": 6.9
+    },
+    {
+      "month": "Mar",
+      "rainfall": 106.4,
+      "seaLevelPressure": 1015.9,
+      "temperature": 9.5
+    },
+    {
+      "month": "Apr",
+      "rainfall": 129.2,
+      "seaLevelPressure": 1015.5,
+      "temperature": 14.5
+    },
+    {
+      "month": "May",
+      "rainfall": 144,
+      "seaLevelPressure": 1012.3,
+      "temperature": 18.2
+    },
+    {
+      "month": "Jun",
+      "rainfall": 176,
+      "seaLevelPressure": 1009.5,
+      "temperature": 21.5
+    },
+    {
+      "month": "Jul",
+      "rainfall": 135.6,
+      "seaLevelPressure": 1009.6,
+      "temperature": 25.2
+    },
+    {
+      "month": "Aug",
+      "rainfall": 148.5,
+      "seaLevelPressure": 1010.2,
+      "temperature": 26.5
+    },
+    {
+      "month": "Sep",
+      "rainfall": 216.4,
+      "seaLevelPressure": 1013.1,
+      "temperature": 23.3
+    },
+    {
+      "month": "Oct",
+      "rainfall": 194.1,
+      "seaLevelPressure": 1016.9,
+      "temperature": 18.3
+    },
+    {
+      "month": "Nov",
+      "rainfall": 95.6,
+      "seaLevelPressure": 1018.2,
+      "temperature": 13.9
+    },
+    {
+      "month": "Dec",
+      "rainfall": 54.4,
+      "seaLevelPressure": 1016.7,
+      "temperature": 9.6
+    }
+  ],
+  "title": "",
+  "subTitle": "",
+  "selectedXAxis": "month",
+  "selectedYAxis": "rainfall",
+  "zooming": "",
+  "showLengend": false,
+  "dataLabel": false,
+  "enableMouseTracking": false,
+  "selectedThirdArgument": "",
+  "pieInnerSize": "",
+  "pieStartAngal": 0,
+  "pieENDAngal": 0,
+  "stacking": "",
+  "selectedSeriesFields": [],
+  "yAxes": []
+}

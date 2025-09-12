@@ -1,0 +1,240 @@
+{
+  "sourceType": "1",
+  "sourceFile": "assets/test6.json",
+  "selectedChartCate": {
+    "name": "Singal Level Charts",
+    "id": 1,
+    "chartOption": [
+      {
+        "type": "line",
+        "name": "Line Chart",
+        "isVisableMapOption": false,
+        "xAxis": true,
+        "yAxis": true,
+        "stacking": false,
+        "isVisiableSeriesField": false,
+        "dataLabel": true,
+        "enableMouseTracking": true,
+        "zooming": true,
+        "tooltip": true,
+        "showLegend": true
+      },
+      {
+        "type": "spline",
+        "name": "Spline Chart",
+        "isVisableMapOption": false,
+        "xAxis": true,
+        "yAxis": true,
+        "stacking": false,
+        "isVisiableSeriesField": false,
+        "dataLabel": true,
+        "enableMouseTracking": true,
+        "zooming": true,
+        "tooltip": true,
+        "showLegend": true
+      },
+      {
+        "type": "lollipop",
+        "name": "Lollipop Chart",
+        "isVisableMapOption": false,
+        "xAxis": true,
+        "yAxis": true,
+        "stacking": false,
+        "isVisiableSeriesField": false,
+        "dataLabel": true,
+        "enableMouseTracking": true,
+        "zooming": true,
+        "tooltip": true,
+        "showLegend": true
+      },
+      {
+        "type": "columnpyramid",
+        "name": "Column Pyramid Chart",
+        "isVisableMapOption": false,
+        "xAxis": true,
+        "yAxis": true,
+        "stacking": false,
+        "isVisiableSeriesField": false,
+        "dataLabel": true,
+        "enableMouseTracking": true,
+        "zooming": true,
+        "tooltip": true,
+        "showLegend": true
+      },
+      {
+        "type": "pyramid",
+        "name": "Pyramid Chart",
+        "isVisableMapOption": false,
+        "xAxis": true,
+        "yAxis": true,
+        "stacking": false,
+        "isVisiableSeriesField": false,
+        "dataLabel": true,
+        "enableMouseTracking": true,
+        "zooming": true,
+        "tooltip": true,
+        "showLegend": true
+      },
+      {
+        "type": "bar",
+        "name": "Bar Chart",
+        "isVisableMapOption": false,
+        "xAxis": true,
+        "yAxis": true,
+        "stacking": false,
+        "isVisiableSeriesField": false,
+        "dataLabel": true,
+        "enableMouseTracking": true,
+        "zooming": true,
+        "tooltip": true,
+        "showLegend": true
+      },
+      {
+        "type": "column",
+        "name": "Column Chart",
+        "isVisableMapOption": false,
+        "xAxis": true,
+        "yAxis": true,
+        "stacking": false,
+        "isVisiableSeriesField": false,
+        "dataLabel": true,
+        "enableMouseTracking": true,
+        "zooming": true,
+        "tooltip": true,
+        "showLegend": true
+      },
+      {
+        "type": "area",
+        "name": "Area Chart",
+        "isVisableMapOption": false,
+        "xAxis": true,
+        "yAxis": true,
+        "stacking": false,
+        "isVisiableSeriesField": false,
+        "dataLabel": true,
+        "enableMouseTracking": true,
+        "zooming": true,
+        "tooltip": true,
+        "showLegend": true
+      },
+      {
+        "type": "pie",
+        "name": "Pie Chart or Donut Chart",
+        "isVisableMapOption": false,
+        "xAxis": true,
+        "yAxis": true,
+        "isVisiableSeriesField": false,
+        "dataLabel": true,
+        "enableMouseTracking": true,
+        "zooming": false,
+        "tooltip": true,
+        "showLegend": true
+      },
+      {
+        "type": "bubble",
+        "name": "Bubble Chart",
+        "isVisableMapOption": false,
+        "xAxis": true,
+        "yAxis": true,
+        "isVisiableSeriesField": false,
+        "dataLabel": true,
+        "enableMouseTracking": true,
+        "zooming": true,
+        "tooltip": true,
+        "showLegend": true
+      }
+    ]
+  },
+  "selectedChartType": {
+    "type": "columnpyramid",
+    "name": "Column Pyramid Chart",
+    "isVisableMapOption": false,
+    "xAxis": true,
+    "yAxis": true,
+    "stacking": false,
+    "isVisiableSeriesField": false,
+    "dataLabel": true,
+    "enableMouseTracking": true,
+    "zooming": true,
+    "tooltip": true,
+    "showLegend": true
+  },
+  "rawData": [
+    {
+      "altitude": 0,
+      "temperature": 15
+    },
+    {
+      "altitude": 10,
+      "temperature": -50
+    },
+    {
+      "altitude": 20,
+      "temperature": -56.5
+    },
+    {
+      "altitude": 30,
+      "temperature": -46.5
+    },
+    {
+      "altitude": 40,
+      "temperature": -22.1
+    },
+    {
+      "altitude": 50,
+      "temperature": -2.5
+    },
+    {
+      "altitude": 60,
+      "temperature": -27.7
+    },
+    {
+      "altitude": 70,
+      "temperature": -55.7
+    },
+    {
+      "altitude": 80,
+      "temperature": -76.5
+    }
+  ],
+  "title": "",
+  "subTitle": "",
+  "selectedXAxis": "altitude",
+  "selectedYAxis": "temperature",
+  "zooming": "",
+  "showLengend": true,
+  "dataLabel": true,
+  "enableMouseTracking": true,
+  "selectedThirdArgument": "",
+  "pieInnerSize": 0,
+  "pieStartAngal": 0,
+  "pieENDAngal": 0,
+  "stacking": "",
+  "selectedSeriesFields": [],
+  "yAxes": [
+    {
+      "title": "Rainfall",
+      "field": "rainfall",
+      "chartType": "column",
+      "unit": "mm",
+      "opposite": true,
+      "color": "#5856d2"
+    },
+    {
+      "title": "Tempture",
+      "field": "temperature",
+      "chartType": "spline",
+      "unit": "C",
+      "opposite": true,
+      "color": "#29d13d"
+    },
+    {
+      "title": "Sea Level Pressure",
+      "field": "seaLevelPressure",
+      "chartType": "spline",
+      "unit": "mn",
+      "opposite": false,
+      "color": "#49b4b6"
+    }
+  ]
+}
