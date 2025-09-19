@@ -14903,6 +14903,30 @@
                 }
             }
         ],
+        "responsive": {
+            "rules": [
+                {
+                    "condition": {
+                        "maxWidth": 500
+                    },
+                    "chartOptions": {
+                        "legend": {
+                            "layout": "horizontal",
+                            "align": "center",
+                            "verticalAlign": "bottom"
+                        },
+                        "xAxis": {
+                            "labels": {
+                                "rotation": -45,
+                                "style": {
+                                    "fontSize": "10px"
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        },
         "lang": {
             "noData": "No data available"
         },
@@ -15086,6 +15110,33 @@
                     1016.7
                 ]
             }
-        ]
+        ],
+        "responsive": {
+            "rules": [
+                {
+                    "condition": {
+                        "maxWidth": 600
+                    },
+                    "chartOptions": {
+                        "legend": {
+                            "layout": "horizontal",
+                            "align": "center",
+                            "verticalAlign": "bottom"
+                        },
+                        "xAxis": {
+                            "labels": {
+                                "rotation": -45,
+                                "style": {
+                                    "fontSize": "10px"
+                                }
+                            }
+                        },
+                        "chart": {
+                            "height": 300
+                        }
+                    }
+                }
+            ]
+        }
     }
 ]
