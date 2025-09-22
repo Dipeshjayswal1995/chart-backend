@@ -20,7 +20,7 @@ app.use(express.urlencoded({ limit: "50mb", extended: true }));
 app.use(bodyParser.json({ limit: "50mb" }));
 app.use(bodyParser.urlencoded({ limit: "50mb", extended: true }));
 
-const folderPath = path.join(__dirname, "ahc_data");
+const folderPath = path.join(__dirname, "jsonFiles");
 
 // Ensure folder exists
 if (!fs.existsSync(folderPath)) {

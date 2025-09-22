@@ -1,4 +1,6 @@
 {
+  "sourceType": 1,
+  "sourceFile": "",
   "selectedChartCate": {
     "name": "Two Level Charts",
     "id": 2,
@@ -83,6 +85,8 @@
     "tooltip": true,
     "showLegend": false
   },
+  "selectedMatchValue": "",
+  "selectedMapOption": null,
   "rawData": [
     {
       "altitude": 0,
@@ -127,10 +131,10 @@
   "selectedYAxis": "temperature",
   "zooming": "",
   "showLengend": false,
-  "dataLabel": false,
+  "dataLabel": true,
   "enableMouseTracking": false,
   "selectedThirdArgument": "",
-  "pieInnerSize": "",
+  "pieInnerSize": 0,
   "pieStartAngal": 0,
   "pieENDAngal": 0,
   "stacking": "",

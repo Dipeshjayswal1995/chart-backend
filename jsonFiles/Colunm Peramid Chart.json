@@ -159,6 +159,8 @@
     "tooltip": true,
     "showLegend": true
   },
+  "selectedMatchValue": "",
+  "selectedMapOption": null,
   "rawData": [
     {
       "altitude": 0,
@@ -201,7 +203,7 @@
   "subTitle": "",
   "selectedXAxis": "altitude",
   "selectedYAxis": "temperature",
-  "zooming": "",
+  "zooming": "y",
   "showLengend": true,
   "dataLabel": true,
   "enableMouseTracking": true,

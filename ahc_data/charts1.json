@@ -14760,6 +14760,33 @@
                 ]
             }
         ],
+        "responsive": {
+            "rules": [
+                {
+                    "condition": {
+                        "maxWidth": 600
+                    },
+                    "chartOptions": {
+                        "chart": {
+                            "height": 300 
+                        },
+                        "legend": {
+                            "layout": "horizontal",
+                            "align": "center",
+                            "verticalAlign": "bottom"
+                        },
+                        "xAxis": {
+                            "labels": {
+                                "rotation": -45,
+                                "style": {
+                                    "fontSize": "10px"
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        },
         "lang": {
             "noData": "No data available"
         },
