@@ -9,18 +9,46 @@ const PORT = 3000;
 
 
 // ✅ Enable CORS for Angular (http://localhost:4200)
-app.use(cors({
-  origin: "http://localhost:4200",
-  methods: ["GET", "POST", "PUT", "DELETE"],
-  credentials: true
-}));
+// app.use(cors({
+//   origin: "http://localhost:4200",
+//   methods: ["GET", "POST", "PUT", "DELETE"],
+//   credentials: true
+// }));
+
+// app.use(cors({
+//   origin: "http://172.16.50.100:4300", // ✅ Angular frontend origin
+//   methods: ["GET", "POST", "PUT", "DELETE"],
+//   credentials: true
+// }));
+
+const allowedOrigins = [
+  "http://localhost:4200",
+  "http://172.16.50.100:4300"
+];
+
+app.use(
+  cors({
+    origin: function (origin, callback) {
+      // allow requests with no origin (like mobile apps, curl, Postman)
+      if (!origin) return callback(null, true);
+
+      if (allowedOrigins.includes(origin)) {
+        return callback(null, true);
+      } else {
+        return callback(new Error("Not allowed by CORS"));
+      }
+    },
+    methods: ["GET", "POST", "PUT", "DELETE"],
+    credentials: true,
+  })
+);
 
 app.use(express.json({ limit: "50mb" }));
-app.use(express.urlencoded({ limit: "50mb", extended: true })); 
+app.use(express.urlencoded({ limit: "50mb", extended: true }));
 app.use(bodyParser.json({ limit: "50mb" }));
 app.use(bodyParser.urlencoded({ limit: "50mb", extended: true }));
 
-const folderPath = path.join(__dirname, "jsonFiles");
+const folderPath = path.join(__dirname, "ahc_data");
 
 // Ensure folder exists
 if (!fs.existsSync(folderPath)) {
@@ -123,6 +151,51 @@ app.put("/file/:name", (req, res) => {
   }
 });
 
+// Lestest Code currently not in use
+// app.put("/file/:oldName", (req, res) => {
+//   try {
+//     const oldName = req.params.oldName.endsWith(".json")
+//       ? req.params.oldName
+//       : `${req.params.oldName}.json`;
+
+//     const { newName, data } = req.body;
+
+//     if (!data || typeof data !== "object") {
+//       return sendResponse(res, false, null, "Invalid JSON format", 400);
+//     }
+
+//     if (!newName || typeof newName !== "string") {
+//       return sendResponse(res, false, null, "New file name is required", 400);
+//     }
+
+//     const oldPath = path.join(folderPath, oldName);
+//     if (!fs.existsSync(oldPath)) {
+//       return sendResponse(res, false, null, "File not found", 404);
+//     }
+
+//     const newFileName = newName.endsWith(".json") ? newName : `${newName}.json`;
+//     const newPath = path.join(folderPath, newFileName);
+
+//     // ✅ Validation: check if new file name already exists
+//     if (fs.existsSync(newPath) && newPath !== oldPath) {
+//       return sendResponse(res, false, null, "File name already exists", 409);
+//     }
+
+//     // ✅ Rename if needed
+//     if (oldPath !== newPath) {
+//       fs.renameSync(oldPath, newPath);
+//     }
+
+//     // ✅ Update file content
+//     fs.writeFileSync(newPath, JSON.stringify(data, null, 2));
+
+//     return sendResponse(res, true, { file: newFileName, data }, "File updated successfully", 200);
+
+//   } catch (err) {
+//     return sendResponse(res, false, null, `Error updating file: ${err.message}`, 500);
+//   }
+// });
+
 // ✅ 5. Delete a JSON file
 app.delete("/file/:name", (req, res) => {
   try {
@@ -141,6 +214,6 @@ app.delete("/file/:name", (req, res) => {
 });
 
 // Start server
-app.listen(PORT, () => {
-  console.log(`✅ Server running at http://localhost:${PORT}`);
+app.listen(PORT, "0.0.0.0", () => {
+  console.log(`✅ Server running at http://172.16.50.100:${PORT}`);
 });
