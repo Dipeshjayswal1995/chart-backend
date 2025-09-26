@@ -1,0 +1,430 @@
+{
+  "listOfChartOption": [
+    {
+      "wigetSize": {
+        "cols": 2,
+        "rows": 2,
+        "x": 0,
+        "y": 0
+      },
+      "chartConfig": {
+        "sourceType": "2",
+        "sourceFile": "",
+        "selectedChartCate": {
+          "name": "Singal Level Charts",
+          "id": 1,
+          "chartOption": [
+            {
+              "type": "line",
+              "name": "Line Chart",
+              "isVisableMapOption": false,
+              "xAxis": true,
+              "yAxis": true,
+              "stacking": false,
+              "isVisiableSeriesField": false,
+              "dataLabel": true,
+              "enableMouseTracking": true,
+              "zooming": true,
+              "tooltip": true,
+              "showLegend": true
+            },
+            {
+              "type": "spline",
+              "name": "Spline Chart",
+              "isVisableMapOption": false,
+              "xAxis": true,
+              "yAxis": true,
+              "stacking": false,
+              "isVisiableSeriesField": false,
+              "dataLabel": true,
+              "enableMouseTracking": true,
+              "zooming": true,
+              "tooltip": true,
+              "showLegend": true
+            },
+            {
+              "type": "lollipop",
+              "name": "Lollipop Chart",
+              "isVisableMapOption": false,
+              "xAxis": true,
+              "yAxis": true,
+              "stacking": false,
+              "isVisiableSeriesField": false,
+              "dataLabel": true,
+              "enableMouseTracking": true,
+              "zooming": true,
+              "tooltip": true,
+              "showLegend": true
+            },
+            {
+              "type": "columnpyramid",
+              "name": "Column Pyramid Chart",
+              "isVisableMapOption": false,
+              "xAxis": true,
+              "yAxis": true,
+              "stacking": false,
+              "isVisiableSeriesField": false,
+              "dataLabel": true,
+              "enableMouseTracking": true,
+              "zooming": true,
+              "tooltip": true,
+              "showLegend": true
+            },
+            {
+              "type": "pyramid",
+              "name": "Pyramid Chart",
+              "isVisableMapOption": false,
+              "xAxis": true,
+              "yAxis": true,
+              "stacking": false,
+              "isVisiableSeriesField": false,
+              "dataLabel": true,
+              "enableMouseTracking": true,
+              "zooming": true,
+              "tooltip": true,
+              "showLegend": true
+            },
+            {
+              "type": "bar",
+              "name": "Bar Chart",
+              "isVisableMapOption": false,
+              "xAxis": true,
+              "yAxis": true,
+              "stacking": false,
+              "isVisiableSeriesField": false,
+              "dataLabel": true,
+              "enableMouseTracking": true,
+              "zooming": true,
+              "tooltip": true,
+              "showLegend": true
+            },
+            {
+              "type": "column",
+              "name": "Column Chart",
+              "isVisableMapOption": false,
+              "xAxis": true,
+              "yAxis": true,
+              "stacking": false,
+              "isVisiableSeriesField": false,
+              "dataLabel": true,
+              "enableMouseTracking": true,
+              "zooming": true,
+              "tooltip": true,
+              "showLegend": true
+            },
+            {
+              "type": "area",
+              "name": "Area Chart",
+              "isVisableMapOption": false,
+              "xAxis": true,
+              "yAxis": true,
+              "stacking": false,
+              "isVisiableSeriesField": false,
+              "dataLabel": true,
+              "enableMouseTracking": true,
+              "zooming": true,
+              "tooltip": true,
+              "showLegend": true
+            },
+            {
+              "type": "pie",
+              "name": "Pie Chart or Donut Chart",
+              "isVisableMapOption": false,
+              "xAxis": true,
+              "yAxis": true,
+              "isVisiableSeriesField": false,
+              "dataLabel": true,
+              "enableMouseTracking": true,
+              "zooming": false,
+              "tooltip": true,
+              "showLegend": true
+            },
+            {
+              "type": "bubble",
+              "name": "Bubble Chart",
+              "isVisableMapOption": false,
+              "xAxis": true,
+              "yAxis": true,
+              "isVisiableSeriesField": false,
+              "dataLabel": true,
+              "enableMouseTracking": true,
+              "zooming": true,
+              "tooltip": true,
+              "showLegend": true
+            }
+          ]
+        },
+        "selectedChartType": {
+          "type": "spline",
+          "name": "Spline Chart",
+          "isVisableMapOption": false,
+          "xAxis": true,
+          "yAxis": true,
+          "stacking": false,
+          "isVisiableSeriesField": false,
+          "dataLabel": true,
+          "enableMouseTracking": true,
+          "zooming": true,
+          "tooltip": true,
+          "showLegend": true
+        },
+        "selectedMatchValue": "",
+        "selectedMapOption": null,
+        "rawData": "new Shource",
+        "title": "",
+        "subTitle": "",
+        "selectedXAxis": "Country",
+        "selectedYAxis": "Value1",
+        "zooming": "",
+        "showLengend": false,
+        "dataLabel": false,
+        "enableMouseTracking": false,
+        "selectedThirdArgument": "",
+        "pieInnerSize": "",
+        "pieStartAngal": 0,
+        "pieENDAngal": 0,
+        "stacking": "",
+        "selectedSeriesFields": [],
+        "yAxes": []
+      }
+    },
+    {
+      "wigetSize": {
+        "cols": 2,
+        "rows": 2,
+        "x": 0,
+        "y": 2
+      },
+      "chartConfig": {
+        "sourceType": 1,
+        "sourceFile": "",
+        "selectedChartCate": {
+          "name": "Two Level Charts",
+          "id": 2,
+          "chartOption": [
+            {
+              "type": "line",
+              "name": "Line Chart",
+              "isVisableMapOption": false,
+              "xAxis": true,
+              "yAxis": true,
+              "isVisiableSeriesField": false,
+              "dataLabel": true,
+              "enableMouseTracking": true,
+              "zooming": true,
+              "tooltip": true,
+              "showLegend": false
+            },
+            {
+              "type": "spline",
+              "name": "Spline Chart",
+              "isVisableMapOption": false,
+              "xAxis": true,
+              "yAxis": true,
+              "isVisiableSeriesField": false,
+              "dataLabel": true,
+              "enableMouseTracking": true,
+              "zooming": true,
+              "tooltip": true,
+              "showLegend": false
+            },
+            {
+              "type": "columnrange",
+              "name": "Column Range Chart",
+              "isVisableMapOption": false,
+              "xAxis": true,
+              "yAxis": true,
+              "isVisiableSeriesField": false,
+              "dataLabel": true,
+              "enableMouseTracking": true,
+              "zooming": true,
+              "tooltip": true,
+              "showLegend": false
+            },
+            {
+              "type": "arearange",
+              "name": "Area Range Chart",
+              "isVisableMapOption": false,
+              "xAxis": true,
+              "yAxis": true,
+              "isVisiableSeriesField": false,
+              "dataLabel": true,
+              "enableMouseTracking": true,
+              "zooming": true,
+              "tooltip": true,
+              "showLegend": false
+            },
+            {
+              "type": "scatter",
+              "name": "Scatter Chart",
+              "isVisableMapOption": false,
+              "xAxis": true,
+              "yAxis": true,
+              "isVisiableSeriesField": false,
+              "dataLabel": true,
+              "enableMouseTracking": true,
+              "zooming": true,
+              "tooltip": true,
+              "showLegend": false
+            }
+          ]
+        },
+        "selectedChartType": {
+          "type": "spline",
+          "name": "Spline Chart",
+          "isVisableMapOption": false,
+          "xAxis": true,
+          "yAxis": true,
+          "isVisiableSeriesField": false,
+          "dataLabel": true,
+          "enableMouseTracking": true,
+          "zooming": true,
+          "tooltip": true,
+          "showLegend": false
+        },
+        "selectedMatchValue": "",
+        "selectedMapOption": null,
+        "rawData": "new Shource",
+        "title": "",
+        "subTitle": "",
+        "selectedXAxis": "Value1",
+        "selectedYAxis": "Value2",
+        "zooming": "",
+        "showLengend": false,
+        "dataLabel": false,
+        "enableMouseTracking": false,
+        "selectedThirdArgument": "",
+        "pieInnerSize": 0,
+        "pieStartAngal": 0,
+        "pieENDAngal": 0,
+        "stacking": "",
+        "selectedSeriesFields": [],
+        "yAxes": []
+      }
+    },
+    {
+      "wigetSize": {
+        "cols": 2,
+        "rows": 2,
+        "x": 2,
+        "y": 0
+      }
+    },
+    {
+      "wigetSize": {
+        "cols": 2,
+        "rows": 2,
+        "x": 2,
+        "y": 2
+      }
+    },
+    {
+      "wigetSize": {
+        "cols": 2,
+        "rows": 2,
+        "x": 0,
+        "y": 4
+      }
+    },
+    {
+      "wigetSize": {
+        "cols": 2,
+        "rows": 2,
+        "x": 2,
+        "y": 4
+      }
+    }
+  ],
+  "sourceData": [
+    {
+      "name": "new Shource",
+      "data": [
+        {
+          "Country": "Norway",
+          "Value1": 51.9,
+          "Value2": 448716
+        },
+        {
+          "Country": "Denmark",
+          "Value1": 48.1,
+          "Value2": 376430
+        },
+        {
+          "Country": "Belgium",
+          "Value1": 47.1,
+          "Value2": 584699
+        },
+        {
+          "Country": "Netherlands",
+          "Value1": 43.3,
+          "Value2": 1034086
+        },
+        {
+          "Country": "France",
+          "Value1": 42.2,
+          "Value2": 2822455
+        },
+        {
+          "Country": "Germany",
+          "Value1": 41.3,
+          "Value2": 2122210
+        },
+        {
+          "Country": "Austria",
+          "Value1": 40.9,
+          "Value2": 478190
+        },
+        {
+          "Country": "Ireland",
+          "Value1": 40.2,
+          "Value2": 504620
+        },
+        {
+          "Country": "Sweden",
+          "Value1": 38.9,
+          "Value2": 540651
+        },
+        {
+          "Country": "Finland",
+          "Value1": 37.1,
+          "Value2": 274880
+        },
+        {
+          "Country": "Italy",
+          "Value1": 29.8,
+          "Value2": 2085375
+        },
+        {
+          "Country": "Spain",
+          "Value1": 24.6,
+          "Value2": 1461889
+        },
+        {
+          "Country": "Czech Republic",
+          "Value1": 18,
+          "Value2": 317387
+        },
+        {
+          "Country": "Portugal",
+          "Value1": 17,
+          "Value2": 265525
+        },
+        {
+          "Country": "Greece",
+          "Value1": 15.7,
+          "Value2": 220303
+        },
+        {
+          "Country": "Poland",
+          "Value1": 14.5,
+          "Value2": 750801
+        },
+        {
+          "Country": "Romania",
+          "Value1": 11,
+          "Value2": 324578
+        }
+      ]
+    }
+  ]
+}

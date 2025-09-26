@@ -1,0 +1,405 @@
+{
+  "listOfChartOption": [
+    {
+      "wigetSize": {
+        "cols": 2,
+        "rows": 2,
+        "x": 0,
+        "y": 0
+      },
+      "chartConfig": {
+        "sourceType": 1,
+        "sourceFile": "",
+        "selectedChartCate": {
+          "name": "Two Level Charts",
+          "id": 2,
+          "chartOption": [
+            {
+              "type": "line",
+              "name": "Line Chart",
+              "isVisableMapOption": false,
+              "xAxis": true,
+              "yAxis": true,
+              "isVisiableSeriesField": false,
+              "dataLabel": true,
+              "enableMouseTracking": true,
+              "zooming": true,
+              "tooltip": true,
+              "showLegend": false
+            },
+            {
+              "type": "spline",
+              "name": "Spline Chart",
+              "isVisableMapOption": false,
+              "xAxis": true,
+              "yAxis": true,
+              "isVisiableSeriesField": false,
+              "dataLabel": true,
+              "enableMouseTracking": true,
+              "zooming": true,
+              "tooltip": true,
+              "showLegend": false
+            },
+            {
+              "type": "columnrange",
+              "name": "Column Range Chart",
+              "isVisableMapOption": false,
+              "xAxis": true,
+              "yAxis": true,
+              "isVisiableSeriesField": false,
+              "dataLabel": true,
+              "enableMouseTracking": true,
+              "zooming": true,
+              "tooltip": true,
+              "showLegend": false
+            },
+            {
+              "type": "arearange",
+              "name": "Area Range Chart",
+              "isVisableMapOption": false,
+              "xAxis": true,
+              "yAxis": true,
+              "isVisiableSeriesField": false,
+              "dataLabel": true,
+              "enableMouseTracking": true,
+              "zooming": true,
+              "tooltip": true,
+              "showLegend": false
+            },
+            {
+              "type": "scatter",
+              "name": "Scatter Chart",
+              "isVisableMapOption": false,
+              "xAxis": true,
+              "yAxis": true,
+              "isVisiableSeriesField": false,
+              "dataLabel": true,
+              "enableMouseTracking": true,
+              "zooming": true,
+              "tooltip": true,
+              "showLegend": false
+            }
+          ]
+        },
+        "selectedChartType": {
+          "type": "spline",
+          "name": "Spline Chart",
+          "isVisableMapOption": false,
+          "xAxis": true,
+          "yAxis": true,
+          "isVisiableSeriesField": false,
+          "dataLabel": true,
+          "enableMouseTracking": true,
+          "zooming": true,
+          "tooltip": true,
+          "showLegend": false
+        },
+        "selectedMatchValue": "",
+        "selectedMapOption": null,
+        "rawData": "Source Name",
+        "title": "",
+        "subTitle": "",
+        "selectedXAxis": "Qty",
+        "selectedYAxis": "price",
+        "zooming": "",
+        "showLengend": false,
+        "dataLabel": true,
+        "enableMouseTracking": true,
+        "selectedThirdArgument": "",
+        "pieInnerSize": 0,
+        "pieStartAngal": 0,
+        "pieENDAngal": 0,
+        "stacking": "",
+        "selectedSeriesFields": [],
+        "yAxes": []
+      }
+    }
+  ],
+  "sourceData": [
+    {
+      "name": "Source Name",
+      "data": [
+        {
+          "CustName": "a1",
+          "OrderDate": 45771,
+          "Qty": 13,
+          "price": 18940,
+          "amt": 246220,
+          "tax": 12311,
+          "city": "Ahmedabad",
+          "": ""
+        },
+        {
+          "CustName": "a2",
+          "OrderDate": 45808,
+          "Qty": 15,
+          "price": 3193,
+          "amt": 47895,
+          "tax": 2394.75,
+          "city": "Rajkot",
+          "": ""
+        },
+        {
+          "CustName": "a1",
+          "OrderDate": 45858,
+          "Qty": 3,
+          "price": 7651,
+          "amt": 22953,
+          "tax": 1147.65,
+          "city": "Bhavnagar",
+          "": ""
+        },
+        {
+          "CustName": "a2",
+          "OrderDate": 45710,
+          "Qty": 13,
+          "price": 8327,
+          "amt": 108251,
+          "tax": 5412.55,
+          "city": "Baroda",
+          "": ""
+        },
+        {
+          "CustName": "a1",
+          "OrderDate": 45832,
+          "Qty": 6,
+          "price": 1485,
+          "amt": 8910,
+          "tax": 445.5,
+          "city": "Surat",
+          "": ""
+        },
+        {
+          "CustName": "a2",
+          "OrderDate": 45674,
+          "Qty": 12,
+          "price": 3904,
+          "amt": 46848,
+          "tax": 2342.4,
+          "city": "Gandhinagar",
+          "": ""
+        },
+        {
+          "CustName": "a1",
+          "OrderDate": 45883,
+          "Qty": 1,
+          "price": 17216,
+          "amt": 17216,
+          "tax": 860.8000000000001,
+          "city": "Junagadh",
+          "": ""
+        },
+        {
+          "CustName": "a2",
+          "OrderDate": 45785,
+          "Qty": 10,
+          "price": 10849,
+          "amt": 108490,
+          "tax": 5424.5,
+          "city": "Porbandar",
+          "": ""
+        },
+        {
+          "CustName": "a1",
+          "OrderDate": 45889,
+          "Qty": 4,
+          "price": 18194,
+          "amt": 72776,
+          "tax": 3638.8,
+          "city": "Porbandar",
+          "": ""
+        },
+        {
+          "CustName": "a2",
+          "OrderDate": 45759,
+          "Qty": 4,
+          "price": 18443,
+          "amt": 73772,
+          "tax": 3688.6000000000004,
+          "city": "Junagadh",
+          "": ""
+        },
+        {
+          "CustName": "a1",
+          "OrderDate": 45783,
+          "Qty": 2,
+          "price": 17037,
+          "amt": 34074,
+          "tax": 1703.7,
+          "city": "Bhavnagar",
+          "": ""
+        },
+        {
+          "CustName": "a2",
+          "OrderDate": 45671,
+          "Qty": 16,
+          "price": 7227,
+          "amt": 115632,
+          "tax": 5781.6,
+          "city": "Ahmedabad",
+          "": ""
+        },
+        {
+          "CustName": "a1",
+          "OrderDate": 45691,
+          "Qty": 14,
+          "price": 6845,
+          "amt": 95830,
+          "tax": 4791.5,
+          "city": "Bhavnagar",
+          "": ""
+        },
+        {
+          "CustName": "a2",
+          "OrderDate": 45692,
+          "Qty": 12,
+          "price": 17973,
+          "amt": 215676,
+          "tax": 10783.800000000001,
+          "city": "Rajkot",
+          "": ""
+        },
+        {
+          "CustName": "a1",
+          "OrderDate": 45903,
+          "Qty": 3,
+          "price": 12233,
+          "amt": 36699,
+          "tax": 1834.95,
+          "city": "Rajkot",
+          "": ""
+        },
+        {
+          "CustName": "a2",
+          "OrderDate": 45700,
+          "Qty": 19,
+          "price": 12338,
+          "amt": 234422,
+          "tax": 11721.1,
+          "city": "Rajkot",
+          "": ""
+        },
+        {
+          "CustName": "a1",
+          "OrderDate": 45665,
+          "Qty": 20,
+          "price": 12524,
+          "amt": 250480,
+          "tax": 12524,
+          "city": "Baroda",
+          "": ""
+        },
+        {
+          "CustName": "a2",
+          "OrderDate": 45667,
+          "Qty": 18,
+          "price": 10689,
+          "amt": 192402,
+          "tax": 9620.1,
+          "city": "Surat",
+          "": ""
+        },
+        {
+          "CustName": "a1",
+          "OrderDate": 45775,
+          "Qty": 9,
+          "price": 2448,
+          "amt": 22032,
+          "tax": 1101.6000000000001,
+          "city": "Bhavnagar",
+          "": ""
+        },
+        {
+          "CustName": "a2",
+          "OrderDate": 45784,
+          "Qty": 5,
+          "price": 3759,
+          "amt": 18795,
+          "tax": 939.75,
+          "city": "Baroda",
+          "": ""
+        },
+        {
+          "CustName": "a1",
+          "OrderDate": 45896,
+          "Qty": 1,
+          "price": 19509,
+          "amt": 19509,
+          "tax": 975.45,
+          "city": "Surat",
+          "": ""
+        },
+        {
+          "CustName": "a2",
+          "OrderDate": 45778,
+          "Qty": 8,
+          "price": 12350,
+          "amt": 98800,
+          "tax": 4940,
+          "city": "Surat",
+          "": ""
+        },
+        {
+          "CustName": "a3",
+          "OrderDate": 45881,
+          "Qty": 18,
+          "price": 19265,
+          "amt": 346770,
+          "tax": 17338.5,
+          "city": "Baroda",
+          "": ""
+        },
+        {
+          "CustName": "a4",
+          "OrderDate": 45829,
+          "Qty": 16,
+          "price": 16219,
+          "amt": 259504,
+          "tax": 12975.2,
+          "city": "Gandhinagar",
+          "": ""
+        },
+        {
+          "CustName": "a5",
+          "OrderDate": 45777,
+          "Qty": 14,
+          "price": 12314,
+          "amt": 172396,
+          "tax": 8619.800000000001,
+          "city": "Gandhinagar",
+          "": ""
+        },
+        {
+          "CustName": "a6",
+          "OrderDate": 45696,
+          "Qty": 10,
+          "price": 5491,
+          "amt": 54910,
+          "tax": 2745.5,
+          "city": "Junagadh",
+          "": ""
+        },
+        {
+          "CustName": "a7",
+          "OrderDate": 45744,
+          "Qty": 2,
+          "price": 15756,
+          "amt": 31512,
+          "tax": 1575.6000000000001,
+          "city": "Gandhinagar",
+          "": ""
+        },
+        {
+          "CustName": "a8",
+          "OrderDate": 45688,
+          "Qty": 5,
+          "price": 13261,
+          "amt": 66305,
+          "tax": 3315.25,
+          "city": "Junagadh",
+          "": ""
+        }
+      ]
+    }
+  ]
+}
