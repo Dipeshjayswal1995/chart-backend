@@ -19,3 +19,7 @@ yarn-error.log*
 
 # npm
 package-lock.json
+/ahc_charts_db/*
+/ahc_data/*
+/data/*
+/jsonFiles/*
